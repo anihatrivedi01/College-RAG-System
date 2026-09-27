@@ -1,0 +1,20 @@
+# Virtual environments
+venv/
+.venv/
+
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# ChromaDB
+chroma_db/
+
+# IDE
+.vscode/
+
+# Data
+data/raw/
+data/processed/
