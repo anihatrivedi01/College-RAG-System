@@ -9,14 +9,20 @@ collection = client.get_or_create_collection(
 
 
 def add_documents(chunks, embeddings, ids):
-    collection.add(
+
+    documents = [chunk["text"] for chunk in chunks]
+    metadatas = [chunk["metadata"] for chunk in chunks]
+
+    collection.upsert(
         ids=ids,
-        documents=chunks,
-        embeddings=embeddings.tolist()
+        documents=documents,
+        embeddings=embeddings.tolist(),
+        metadatas=metadatas
     )
 
 
 def search_documents(query_embedding, n_results=2):
+
     results = collection.query(
         query_embeddings=query_embedding.tolist(),
         n_results=n_results
