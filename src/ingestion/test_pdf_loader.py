@@ -1,14 +1,15 @@
-from langchain_community.document_loaders import PyPDFLoader
+from src.ingestion.document_loader import extract_text_from_pdf
 
-pdf_path = "data/raw/criteria_for_passing_exams.pdf"
+pdf_path = "data/raw/conduct_and_evaluation_of_examinations.pdf"
 
-loader = PyPDFLoader(pdf_path)
-documents = loader.load()
+pages = extract_text_from_pdf(pdf_path)
 
-print("Number of pages: ",len(documents))
+print("Number of pages extracted:", len(pages))
 
-print("\n--- First page ---")
-print(documents[0].page_content)
+# Look at one page you can verify against the real PDF
+page_to_check = 7
 
-print("\n--- Metadata ---")
-print(documents[0].metadata)
+for p in pages:
+    if p["page"] == page_to_check:
+        print(f"\n--- Page {page_to_check} ---")
+        print(p["text"])

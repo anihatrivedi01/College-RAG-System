@@ -1,7 +1,13 @@
 import pymupdf
 import pytesseract
-from PIL import Image
+from PIL import Image, ImageOps
 import io
+
+
+def preprocess_for_ocr(image):
+    image = ImageOps.grayscale(image)
+    image = image.point(lambda x: 0 if x < 180 else 255)
+    return image
 
 
 def extract_text_from_pdf(pdf_path):
@@ -15,10 +21,7 @@ def extract_text_from_pdf(pdf_path):
         text = page.get_text().strip()
 
         if len(text) > 50:
-            pages.append({
-                "text": text,
-                "page": page_number + 1
-            })
+            page_text = text
 
         else:
             print(f"OCR required for page {page_number + 1}")
@@ -29,10 +32,16 @@ def extract_text_from_pdf(pdf_path):
                 io.BytesIO(pix.tobytes("png"))
             )
 
-            ocr_text = pytesseract.image_to_string(image).strip()
+            image = preprocess_for_ocr(image)
 
+            page_text = pytesseract.image_to_string(
+                image,
+                config="--psm 6"
+            ).strip()
+
+        if page_text:
             pages.append({
-                "text": ocr_text,
+                "text": page_text,
                 "page": page_number + 1
             })
 

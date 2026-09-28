@@ -1,16 +1,22 @@
+import os
+import sys
+
 from src.ingestion.document_loader import extract_text_from_pdf
 from src.ingestion.chunker import chunk_text
 
 
-pdf_path = "data/raw/criteria_for_passing_exams.pdf"
+pdf_path = sys.argv[1]
+
+source = os.path.basename(pdf_path)
 
 pages = extract_text_from_pdf(pdf_path)
 
 chunks = chunk_text(
     pages,
-    source="criteria_for_passing_exams.pdf"
+    source=source
 )
 
+print("Number of pages:", len(pages))
 print("Number of chunks:", len(chunks))
 
 for i, chunk in enumerate(chunks):
@@ -20,13 +26,15 @@ for i, chunk in enumerate(chunks):
     print("Metadata:")
     print(chunk["metadata"])
 
-    print("\nText:")
-    print(chunk["text"])
+    print("\nText preview:")
+    print(chunk["text"][:300])
 
     if i < len(chunks) - 1:
 
-        print("\n--- END OF THIS CHUNK ---")
-        print(chunk["text"][-200:])
+        print("\n--- OVERLAP CHECK ---")
+        print("End of current chunk:")
+        print(chunk["text"][-150:])
 
-        print("\n--- START OF NEXT CHUNK ---")
-        print(chunks[i + 1]["text"][:200])
+        print("\nStart of next chunk:")
+        print(chunks[i + 1]["text"][:150])
+        
