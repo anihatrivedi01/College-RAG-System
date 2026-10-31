@@ -1,0 +1,22 @@
+[
+  {
+    "course_type": "Theory Courses",
+    "weightage_for_end_term_examination": "60%",
+    "weightage_for_continuous_evaluation_by_the_teacher": "40%"
+  },
+  {
+    "course_type": "Practical/Laboratory Courses",
+    "weightage_for_end_term_examination": "60%",
+    "weightage_for_continuous_evaluation_by_the_teacher": "40%"
+  },
+  {
+    "course_type": "Dissertation/Thesis - External Examiner",
+    "weightage_for_end_term_examination": "60%",
+    "weightage_for_continuous_evaluation_by_the_teacher": "not applicable"
+  },
+  {
+    "course_type": "Dissertation/Thesis - Internal Examiner",
+    "weightage_for_end_term_examination": "not applicable",
+    "weightage_for_continuous_evaluation_by_the_teacher": "40%"
+  }
+]

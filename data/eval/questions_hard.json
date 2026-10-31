@@ -1,0 +1,84 @@
+[
+  {
+    "id": 1,
+    "question": "How many times can a student take an academic break?",
+    "expected": "Only two academic breaks are allowed for the whole programme. If a further break would be needed (because of non-promotion or detention), the student's admission is cancelled.",
+    "must_contain": ["only two academic breaks"], 
+    "source": "conduct_and_evaluation_of_examinations.pdf"
+  },
+  {
+    "id": 2,
+    "question": "How long do I have to apply for re-checking after my result is declared?",
+    "expected": "Within two weeks from the date the result is declared, on payment of the prescribed fee.",
+    "must_contain": ["within two weeks"],
+    "source": "conduct_and_evaluation_of_examinations.pdf"
+  },
+  {
+    "id": 3,
+    "question": "What CPI do I need to get first division?",
+    "expected": "A CPI at the end of the programme of 60 and above but below 75.",
+    "must_contain": ["60 and above but below 75"],
+    "source": "conduct_and_evaluation_of_examinations.pdf"
+  },
+  {
+    "id": 4,
+    "question": "I got a CPI of 58, which division is that?",
+    "expected": "Second Division (CPI of 50 and above but below 60)",
+    "must_contain": ["50 and above but below 60"],
+    "source": "conduct_and_evaluation_of_examinations.pdf"
+  },
+  {
+    "id": 5,
+    "question": "What do I need to get first division with distinction?",
+    "expected": "A CPI of 75 and above at the end of the programme, provided all courses for which credits were earned have been passed",
+    "must_contain": ["75 and above"],
+    "source": "conduct_and_evaluation_of_examinations.pdf"
+  },
+  {
+    "id": 6,
+    "question": "What is the difference between first division and first division with distinction?",
+    "expected": "First Division is a CPI of 60 and above but below 75. First Division with Distinction is a CPI of 75 and above, provided the student has passed all the courses for which she earned credits",
+    "must_contain": ["60 and above but below 75", "75 and above"],
+    "source": "conduct_and_evaluation_of_examinations.pdf"
+  },
+  {
+    "id": 7,
+    "question": "Is there any special recognition for very high CPI?",
+    "expected": "A CPI of 90 and above, with all courses passed in the first attempt, is deemed exemplary performance and earns a special University Certificate",
+    "must_contain": ["90 and above"],
+    "source": "conduct_and_evaluation_of_examinations.pdf"
+  },
+  {
+    "id" : 8,
+    "question" : "CPI formula",
+    "expected": "CPI = sum of (credits × marks) divided by sum of credits, over the courses passed with at least 50%",
+    "must_contain": ["not less than 50% marks"],
+    "source": "conduct_and_evaluation_of_examinations.pdf" 
+  },
+  {
+    "id" : 9,
+    "question" : "What is the difference between the penalty for possessing notes and using them ?",
+    "expected" : "Possessing notes without using them or helping anyone: cancellation of the entire examination. Using the material or helping another candidate: cancellation of the entire examination taken during the year, plus debarment from any University examination for 12 months",
+    "must_contain": ["has not attempted to take any assistance", "actual use of material"],
+    "source": "regulation_for_unfair_means.pdf"
+  },
+    {
+    "id": 10,
+    "question": "I will be writing my exam with a scribe. How much extra time do I get, and what attendance do I need to be allowed to sit the exam?",
+    "expected": "Extra time: one hour for a 3-hour paper, or 1/3rd of the total duration for papers shorter than 3 hours. Attendance: minimum 75% in aggregate across all courses in a semester (the Dean/HOD can condone a shortage of up to 10%, and the Vice-Chancellor can relax it by a further 5% in exceptional circumstances); below 60% aggregate a student cannot appear in the end-term examinations. The documents do not state a different attendance rule for students using a scribe.",
+    "must_contain": ["seventy-five percent", "one hour extra time"],
+    "source": ["scribe_writer_guidelines_disabled_students.pdf", "conduct_and_evaluation_of_examinations.pdf"]
+  },
+  {
+    "id": 11,
+    "question": "What is the library fine for late books?",
+    "expected" : "NOT IN DOCUMENTS",
+    "source" : null
+  },
+  {
+    "id": 12,
+    "question": "Who is the current Vice-Chancellor?",
+    "expected": "NOT IN DOCUMENTS",
+    "source": null
+  }
+]

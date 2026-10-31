@@ -37,4 +37,8 @@ for i, chunk in enumerate(chunks):
 
         print("\nStart of next chunk:")
         print(chunks[i + 1]["text"][:150])
-        
+   
+full = "\n".join(c["text"] for c in chunks)
+print("Chunks:", len(chunks))
+print("Footers left:", full.count("P a g e"))
+print("TOC left:", full.upper().count("TABLE OF CONTENTS"))     

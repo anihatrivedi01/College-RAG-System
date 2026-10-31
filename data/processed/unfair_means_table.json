@@ -1,0 +1,64 @@
+[
+  {
+    "part": "A",
+    "offences": [
+      "Candidate found talking to another candidate or any person inside or outside the examination hall during examination hours without permission of a member of the supervisory staff",
+      "Candidate commits breach of any other direction to candidates for examinations contained in the code of conduct"
+    ],
+    "punishment": "Cancellation of the Examination in the paper of the day of incident only and declaring the result on the basis of the performance of the candidate in the remaining papers/subjects the candidate shall be deemed to have secured zero mark in the paper so cancelled."
+  },
+  {
+    "part": "B",
+    "offences": [
+      "Candidate found in possession of mobile phone, papers, books, notes, or written notes on question paper, clothes, body, table, desk, ruler, or instruments, which could be helpful in answering the paper, but candidate has not attempted to take any assistance herself or give assistance to any other candidate from such material",
+      "Candidate intentionally tears off the answer book or a part thereof or a continuation sheet",
+      "Candidate deliberately discloses her identity or makes any distinctive mark in the answer book in contravention of general rules",
+      "Candidate uses abusive or obscene language in the answer book",
+      "Candidate guilty of misbehaviour in connection with the examination with the Superintendent of centre, invigilator on duty, other staff, or any other candidate before, during, or after the examination",
+      "Candidate leaves the examination room before expiry of half an hour without written permission of the Superintendent and/or without handing the answer book to the invigilator/In-charge and/or without signing the attendance sheet"
+    ],
+    "punishment": "Cancellation of the Entire Examination"
+  },
+  {
+    "part": "C",
+    "offences": [
+      "Candidate found in possession of mobile phone, papers, books, notes, or written notes on question paper, clothes, body, table, desk, foot rule, or instruments, which could be helpful in answering the paper, and the candidate has made actual use of material herself or given assistance thereof to any other candidate during the examination",
+      "Candidate assists or attempts to assist in any manner whatsoever any other candidate in answering the question paper during examination hours",
+      "Candidate takes assistance or attempts to take assistance from another candidate or any book, paper, notes, or other material in answering the question paper during the examination",
+      "Answer book shows or establishes that candidate received or attempted to receive help, or gave or attempted to give help to another candidate during examination hours",
+      "Candidate guilty of gross misbehavior (threatening with physical force) in connection with the examination with Superintendent of centre, invigilator on duty, staff, or other candidate before, during, or after the examination",
+      "Candidate disturbs the examination or attempts to do so",
+      "Candidate on being challenged or searched swallows a note or paper, runs with it, or causes disappearance or destruction of material to obliterate evidence of having possessed material"
+    ],
+    "punishment": "Cancellation of the Entire Examination taken by the Candidate during the year and further debarring him from appearing at any Examination of the University within a span of one year (12months)."
+  },
+  {
+    "part": "D",
+    "offences": [
+      "Candidate brings into the exam room unauthorized answer book or continuation sheet",
+      "Candidate sends out an answer book, paper, continuation sheet, question paper, or any material concerning thereto",
+      "Candidate replaces during the course of examination her answer book or any page or continuation sheet with any other unauthorized book, page, or continuation sheet",
+      "Candidate communicates or attempts to communicate directly or through relative, guardian, or friend with an examiner with object of influencing him in award of marks",
+      "Candidate replaces or gets replaced an answer book or its page or continuation sheet after examination, or manages to write or get written an answer book for questions not written earlier during examination"
+    ],
+    "punishment": "Cancellation the Entire Examination taken by the candidate and further debarring him at any Examination of the Board during the span of two years (24 months)."
+  },
+  {
+    "part": "E",
+    "offences": [
+      "Candidate guilty of gross misbehavior in connection with examination with Superintendent of Centre, invigilator on duty, or staff before, during, or after examination and extended threat of violent action with a weapon of offence",
+      "Candidate has impersonated at the examination",
+      "The impersonator so impersonating (if a student of any course or candidate for any examination) shall also be liable to same punishment"
+    ],
+    "punishment": "Cancellation of the entire Examination taken by the candidate and further debarring him at any Examination of the Board during the span of three years (36 months)."
+  },
+  {
+    "part": "F",
+    "offences": [
+      "Candidate incites others to leave the exam or attempts to do so",
+      "Candidate guilty of gross misbehaviour in connection with examination with invigilator on duty or staff and guilty of assault or inflicting injury on such person",
+      "Candidate guilty of forging signatures on authority on record book presented for practical exam or any document required in connection with Examination"
+    ],
+    "punishment": "Cancellation of the Entire Examination taken by the candidate and further debarring her at any Examination of the University during the span of five years (60 months)."
+  }
+]

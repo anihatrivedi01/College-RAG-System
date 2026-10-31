@@ -1,0 +1,20 @@
+[
+  {
+    "course_type": "Theory Courses",
+    "component": "Two class tests",
+    "marks": "15 marks for each test",
+    "note": "The two class tests shall ordinarily be held after 6 weeks and 12 weeks of teaching in accordance with the University Academic Calendar"
+  },
+  {
+    "course_type": "Theory Courses",
+    "component": "Assignment, Group Discussion, Viva-Voce, Additional Test, Quizzes, Attendance etc",
+    "marks": "10 marks",
+    "note": "Part of the teacher's continuous evaluation for theory courses"
+  },
+  {
+    "course_type": "Practical/Laboratory Courses",
+    "component": "Teacher's continuous evaluation, based on performance in the laboratory, attendance, practical exercises/assignments, quizzes, etc.",
+    "marks": "15, 15 and 10 marks",
+    "note": "Teacher's continuous evaluation for practical and laboratory courses"
+  }
+]

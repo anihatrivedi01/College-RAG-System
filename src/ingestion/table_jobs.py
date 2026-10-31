@@ -1,0 +1,33 @@
+TABLE_JOBS = [
+    {
+        "title": "Penalty and punishment for unfair means, clause 17 of the Regulations for Unfair Means",
+        "name": "unfair_means_table",
+        "source": "regulation_for_unfair_means.pdf",
+        "pdf": "data/raw/regulation_for_unfair_means.pdf",
+        "pages": [5, 6, 7, 8],
+        "describe": "offences (grouped by Part A-F) and their punishments, clause 17",
+        "hint": 'Use one object per Part, with keys "part", "offences" (a list) and "punishment".',
+        "lead": ["part", "punishment"],
+        "split_offences": True,
+    },
+    {
+        "title": "Weightage of end-term examination and teacher's continuous evaluation, clause 8(3)",
+        "name": "evaluation_weightage",
+        "source": "conduct_and_evaluation_of_examinations.pdf",
+        "pdf": "data/raw/conduct_and_evaluation_of_examinations.pdf",
+        "pages": [4],
+        "describe": "weightage of end-term examination and continuous evaluation for theory, practical and dissertation courses",
+        "hint": "",
+        "lead": [],
+    },
+    {
+        "title": "Teacher's continuous evaluation, course components and apportioned marks, clause 8(5)",
+        "name": "continuous_evaluation_marks",
+        "source": "conduct_and_evaluation_of_examinations.pdf",
+        "pdf": "data/raw/conduct_and_evaluation_of_examinations.pdf",
+        "pages": [5],
+        "describe": "course components of the teacher's continuous evaluation and their apportioned marks",
+        "hint": "",
+        "lead": [],
+    },
+]

@@ -1,0 +1,101 @@
+Q1: How many times can a student take an academic break?
+EXPECTED: Only two academic breaks are allowed for the whole programme. If a further break would be needed (because of non-promotion or detention), the student's admission is cancelled.
+RETRIEVAL HIT: True   RETRIEVED: ['conduct_and_evaluation_of_examinations.pdf p8 #18', 'conduct_and_evaluation_of_examinations.pdf p8 #17', 'conduct_and_evaluation_of_examinations.pdf p3 #4']
+ANSWER: Only two academic breaks are permissible for a student for the completion of the academic programme/course. In no situation will a student be allowed to take more than two academic breaks, for any reason whatsoever, including for the reasons of detention for shortage of attendance or deficiency of credits during the whole term of completion of the course/programme. A student who has exhausted two academic breaks and a further occasion arises for her to take academic break because of non promotion or detention, in such cases the admission of such student would automatically stand cancelled right at the time such an occasion of more than two academic breaks arise.
+
+Source: conduct_and_evaluation_of_examinations.pdf, page: 8
+----------------------------------------------------------------------
+Q2: How long do I have to apply for re-checking after my result is declared?
+EXPECTED: Within two weeks from the date the result is declared, on payment of the prescribed fee.
+RETRIEVAL HIT: True   RETRIEVED: ['regulation_for_unfair_means.pdf p9 #24', 'conduct_and_evaluation_of_examinations.pdf p6 #12', 'conduct_and_evaluation_of_examinations.pdf p7 #13']
+ANSWER: You may apply within two weeks from the date of the declaration of the result.
+
+Source: conduct_and_evaluation_of_examinations.pdf, Page: 6
+----------------------------------------------------------------------
+Q3: What CPI do I need to get first division?
+EXPECTED: A CPI at the end of the programme of 60 and above but below 75.
+RETRIEVAL HIT: True   RETRIEVED: ['conduct_and_evaluation_of_examinations.pdf p8 #20', 'conduct_and_evaluation_of_examinations.pdf p8 #19', 'conduct_and_evaluation_of_examinations.pdf p9 #23']
+ANSWER: To be placed in the First Division, a candidate must obtain a CPI at the end of the programme of 60 and above but below 75.
+
+Source: conduct_and_evaluation_of_examinations.pdf, page 8
+----------------------------------------------------------------------
+Q4: I got a CPI of 58, which division is that?
+EXPECTED: Second Division (CPI of 50 and above but below 60)
+RETRIEVAL HIT: True   RETRIEVED: ['conduct_and_evaluation_of_examinations.pdf p8 #20', 'conduct_and_evaluation_of_examinations.pdf p8 #19', 'conduct_and_evaluation_of_examinations.pdf p9 #manual_0']
+ANSWER: A candidate obtaining a Cumulative Performance Index (CPI) at the end of the programme of 50 and above but below 60 shall be placed in Second Division.
+
+Source: conduct_and_evaluation_of_examinations.pdf, page 8
+----------------------------------------------------------------------
+Q5: What do I need to get first division with distinction?
+EXPECTED: A CPI of 75 and above at the end of the programme, provided all courses for which credits were earned have been passed
+RETRIEVAL HIT: True   RETRIEVED: ['conduct_and_evaluation_of_examinations.pdf p8 #20', 'conduct_and_evaluation_of_examinations.pdf p8 #19', 'criteria_for_passing_exams.pdf p1 #1']
+ANSWER: To be placed in First Division with Distinction, a candidate must obtain a Cumulative Performance Index (CPI) of 75 and above at the end of the programme, provided that the candidate has passed all the courses for which she has earned credits.
+
+Source: conduct_and_evaluation_of_examinations.pdf, Page: 8
+----------------------------------------------------------------------
+Q6: What is the difference between first division and first division with distinction?
+EXPECTED: First Division is a CPI of 60 and above but below 75. First Division with Distinction is a CPI of 75 and above, provided the student has passed all the courses for which she earned credits
+RETRIEVAL HIT: True   RETRIEVED: ['conduct_and_evaluation_of_examinations.pdf p8 #20', 'conduct_and_evaluation_of_examinations.pdf p8 #19', 'criteria_for_passing_exams.pdf p1 #1']
+ANSWER: To be placed in the First Division, a candidate must obtain a Cumulative Performance Index (CPI) at the end of the programme of 60 and above but below 75. 
+
+To be placed in First Division with Distinction, a candidate must obtain a CPI of 75 and above at the end of the programme, provided that the candidate has passed all the courses for which she has earned credits. Furthermore, a candidate obtaining a CPI of 90 and above shall be deemed to have passed the programme with exemplary performance provided she has passed all the courses for which she has earned the credits, in the first attempt, and such candidates will be awarded a special University Certificate to this effect.
+
+Source: conduct_and_evaluation_of_examinations.pdf, page 8
+----------------------------------------------------------------------
+Q7: Is there any special recognition for very high CPI?
+EXPECTED: A CPI of 90 and above, with all courses passed in the first attempt, is deemed exemplary performance and earns a special University Certificate
+RETRIEVAL HIT: True   RETRIEVED: ['conduct_and_evaluation_of_examinations.pdf p9 #23', 'conduct_and_evaluation_of_examinations.pdf p8 #20', 'conduct_and_evaluation_of_examinations.pdf p10 #24']
+ANSWER: Yes, there is special recognition for very high CPI based on the following cases:
+
+1. A candidate obtaining a CPI of 75 and above at the end of the programme shall be placed in First Division with Distinction, provided the candidate has passed all the courses for which she has earned credits.
+2. A candidate obtaining a CPI of 90 and above shall be deemed to have passed the programme with exemplary performance provided she has passed all the courses for which she has earned the credits, in the first attempt. Such candidates will be awarded a special University Certificate to this effect.
+
+Source: conduct_and_evaluation_of_examinations.pdf, Page: 8
+----------------------------------------------------------------------
+Q8: CPI formula
+EXPECTED: CPI = sum of (credits × marks) divided by sum of credits, over the courses passed with at least 50%
+RETRIEVAL HIT: True   RETRIEVED: ['conduct_and_evaluation_of_examinations.pdf p9 #manual_0', 'conduct_and_evaluation_of_examinations.pdf p9 #23', 'conduct_and_evaluation_of_examinations.pdf p8 #20']
+ANSWER: The formula for calculating the Cumulative Performance Index (CPI) is: CPI = (sum of Cn x Mn) divided by (sum of Cn), where the sums are taken only over the courses that the student has passed with not less than 50% marks and for which credits are earned. Cn is the number of credits earned for course n in any semester. Mn is the marks obtained by the student in course n. N is the total number of courses over which the performance is being measured, and n runs from 1 to N. All courses have maximum marks of 100 irrespective of the number of credits assigned to the course. Courses in which the student appeared but secured less than 50% marks are not counted; they are treated as Audit Courses and shown that way in the final mark sheet.
+
+Source: conduct_and_evaluation_of_examinations.pdf, page 9
+----------------------------------------------------------------------
+Q9: What is the difference between the penalty for possessing notes and using them ?
+EXPECTED: Possessing notes without using them or helping anyone: cancellation of the entire examination. Using the material or helping another candidate: cancellation of the entire examination taken during the year, plus debarment from any University examination for 12 months
+RETRIEVAL HIT: True   RETRIEVED: ['regulation_for_unfair_means.pdf p5-8 #table_unfair_means_table_1_0', 'regulation_for_unfair_means.pdf p5-8 #table_unfair_means_table_2_0', 'regulation_for_unfair_means.pdf p5-8 #table_unfair_means_table_5_2']
+ANSWER: Based on the provided documents, the differences in penalties depend on whether the candidate merely possessed the material or made actual use of it:
+
+1. **Possession of notes (without taking or giving assistance):** 
+   - **Offence:** The candidate is found in possession of a mobile phone, papers, books, notes, or written notes on a question paper, clothes, body, table, desk, ruler, or instruments that could be helpful in answering the paper, but the candidate has not attempted to take any assistance herself or give assistance to any other candidate from such material.
+   - **Penalty:** Cancellation of the Entire Examination.
+
+2. **Using notes (making actual use or giving assistance):** 
+   - **Offence:** The candidate is found in possession of a mobile phone, papers, books, notes, or written notes on a question paper, clothes, body, table, desk, foot rule, or instruments that could be helpful in answering the paper, and the candidate has made actual use of the material herself or given assistance thereof to any other candidate during the examination.
+   - **Penalty:** Cancellation of the Entire Examination taken by the Candidate during the year and further debarring him from appearing at any Examination of the University within a span of one year (12 months).
+
+Source: regulation_for_unfair_means.pdf, Page: 5-8
+----------------------------------------------------------------------
+Q10: I will be writing my exam with a scribe. How much extra time do I get, and what attendance do I need to be allowed to sit the exam?
+EXPECTED: Extra time: one hour for a 3-hour paper, or 1/3rd of the total duration for papers shorter than 3 hours. Attendance: minimum 75% in aggregate across all courses in a semester (the Dean/HOD can condone a shortage of up to 10%, and the Vice-Chancellor can relax it by a further 5% in exceptional circumstances); below 60% aggregate a student cannot appear in the end-term examinations. The documents do not state a different attendance rule for students using a scribe.
+RETRIEVAL HIT: True   RETRIEVED: ['scribe_writer_guidelines_disabled_students.pdf p1 #0', 'conduct_and_evaluation_of_examinations.pdf p6 #12', 'scribe_writer_guidelines_disabled_students.pdf p1 #1', 'conduct_and_evaluation_of_examinations.pdf p3 #5', 'conduct_and_evaluation_of_examinations.pdf p2 #2']
+ANSWER: Regarding the extra time for an exam with a scribe/writer:
+1. One hour extra time over and above the prescribed time for a paper of 03 (three) hours duration be given.
+2. In case, where the duration of the examination is less than 03 hours the extra time will be 1/3 of the total duration of the examination.
+
+Regarding the attendance needed to be allowed to sit the exam:
+1. A student has to put in a minimum of seventy-five percent attendance in aggregate of all the courses taken together in a semesters.
+2. The Dean of Faculty/Dean (Academic Affairs)/Head of the Department may condone attendance shortage upto 10% for individual student for reasons to be recorded in writing, on production of documents showing that the student was busy in authorized activities or suffering from any disease/disorder (provided the student submits the documents within seven days of resuming studies).
+3. Under exceptional circumstances, the Vice-Chancellor may further relax the minimum attendance up to five percent.
+4. Under no circumstances shall a student who has an aggregate attendance of less than sixty percent in a semester be allowed to appear in the end-term examinations.
+
+Source: scribe_writer_guidelines_disabled_students.pdf, page 1 (for extra time); conduct_and_evaluation_of_examinations.pdf, page 3 (for attendance)
+----------------------------------------------------------------------
+Q11: What is the library fine for late books?
+EXPECTED: NOT IN DOCUMENTS
+RETRIEVAL HIT: None   RETRIEVED: ['conduct_and_evaluation_of_examinations.pdf p3 #5', 'conduct_and_evaluation_of_examinations.pdf p6 #12', 'regulation_for_unfair_means.pdf p5-8 #table_unfair_means_table_1_5']
+ANSWER: I could not find this information in the provided college documents.
+----------------------------------------------------------------------
+Q12: Who is the current Vice-Chancellor?
+EXPECTED: NOT IN DOCUMENTS
+RETRIEVAL HIT: None   RETRIEVED: ['conduct_and_evaluation_of_examinations.pdf p10 #26', 'regulation_for_unfair_means.pdf p4 #9', 'research_and_development_guidelines_igdtuw.pdf p11 #22']
+ANSWER: I could not find this information in the provided college documents.
+----------------------------------------------------------------------

@@ -1,0 +1,158 @@
+[
+  {
+    "id": 1,
+    "question": "What are the criteria for promotion to the next academic year?",
+    "expected": "At least 50% of the total credits of the ensuing academic year and 90% of the total credits of the previous year, excluding the credits of the ensuing year",
+    "retrieval_hit": true,
+    "no_answer_ok": null,
+    "retrieved": [
+      "conduct_and_evaluation_of_examinations.pdf p7 #16",
+      "criteria_for_passing_exams.pdf p1 #1",
+      "conduct_and_evaluation_of_examinations.pdf p8 #17"
+    ],
+    "answer": "To be promoted to the next academic year, a student must obtain at least:\na) 50% (accurate up to two decimal digits) of the total credits of the ensuing academic year from which the promotion to the next academic year is being sought, and\nb) 90% (accurate up to two decimal digits & rounding off thereafter to full digits) of the total credits of the previous year excluding the credits of the ensuing academic year from which the promotion to the next academic year is being sought.\n\nSource: conduct_and_evaluation_of_examinations.pdf (Page 7) / criteria_for_passing_exams.pdf (Page 1)"
+  },
+  {
+    "id": 2,
+    "question": "What is the punishment for carrying a mobile phone into the exam?",
+    "expected": "Possession only: cancellation of the entire examination. If the phone was used or help was given: cancellation of the entire examination taken during the year plus debarment for 12 months",
+    "retrieval_hit": true,
+    "no_answer_ok": null,
+    "retrieved": [
+      "regulation_for_unfair_means.pdf p2 #4",
+      "regulation_for_unfair_means.pdf p5-8 #table_unfair_means_table_2_0",
+      "regulation_for_unfair_means.pdf p5-8 #table_unfair_means_table_1_0"
+    ],
+    "answer": "Based on the provided documents, the punishment for carrying a mobile phone into the exam depends on whether the candidate made actual use of the material:\n\n* **Case 1:** If the candidate is found in possession of a mobile phone and has made actual use of the material herself (or given assistance to any other candidate during the examination), the punishment is the cancellation of the entire examination taken by the candidate during the year, and further debarring him/her from appearing at any examination of the University within a span of one year (12 months).\n* **Case 2:** If the candidate is found in possession of a mobile phone, but has not attempted to take any assistance herself or give assistance to any other candidate from such material, the punishment is the cancellation of the entire examination.\n\n**Source:** regulation_for_unfair_means.pdf  \n**Page:** 5-8"
+  },
+  {
+    "id": 3,
+    "question": "What is the weightage of the end-term examination for theory courses?",
+    "expected": "60% end-term, 40% continuous evaluation by the teacher",
+    "retrieval_hit": true,
+    "no_answer_ok": null,
+    "retrieved": [
+      "conduct_and_evaluation_of_examinations.pdf p4 #7",
+      "conduct_and_evaluation_of_examinations.pdf p4 #table_evaluation_weightage_0",
+      "conduct_and_evaluation_of_examinations.pdf p4 #table_evaluation_weightage_2"
+    ],
+    "answer": "The weightage of the end-term examination for theory courses is 60%.\n\nSource: conduct_and_evaluation_of_examinations.pdf, Page: 4"
+  },
+  {
+    "id": 4,
+    "question": "What financial assistance is available for full-time Ph.D. scholars?",
+    "expected": "Rs 10,000 per month for full-time scholars with no other financial support, for up to five years or until the Ph.D. is completed",
+    "retrieval_hit": true,
+    "no_answer_ok": null,
+    "retrieved": [
+      "research_and_development_guidelines_igdtuw.pdf p15 #33",
+      "research_and_development_guidelines_igdtuw.pdf p5 #9",
+      "research_and_development_guidelines_igdtuw.pdf p15 #34"
+    ],
+    "answer": "Full-time Ph.D. scholars who are not receiving any financial support or stipend from any other source are eligible for financial assistance of Rs. 10,000/- per month. \n\nSource: research_and_development_guidelines_igdtuw.pdf, Page: 15"
+  },
+  {
+    "id": 5,
+    "question": "How much extra time is given to a disabled student with a scribe?",
+    "expected": "One hour extra for a 3-hour paper; 1/3rd of the total duration for papers shorter than 3 hours",
+    "retrieval_hit": true,
+    "no_answer_ok": null,
+    "retrieved": [
+      "scribe_writer_guidelines_disabled_students.pdf p1 #1",
+      "scribe_writer_guidelines_disabled_students.pdf p1 #0",
+      "conduct_and_evaluation_of_examinations.pdf p3 #5"
+    ],
+    "answer": "Based on the provided documents, the extra time given to a disabled student is as follows:\n\n* For a paper of 03 (three) hours duration: One hour extra time over and above the prescribed time is given.\n* For examinations where the duration is less than 03 hours: The extra time will be $1/3^{\\text{rd}}$ of the total duration of the examination.\n\n**Source:** scribe_writer_guidelines_disabled_students.pdf, Page: 1"
+  },
+  {
+    "id": 6,
+    "question": "What extra arrangements will be made for disabled students in the exam?",
+    "expected": "The Centre Superintendent will make extra arrangements at examination at examination centre by Scribe/Writer,one extra/separate invigilator in a separate room.",
+    "retrieval_hit": true,
+    "no_answer_ok": null,
+    "retrieved": [
+      "scribe_writer_guidelines_disabled_students.pdf p1 #1",
+      "conduct_and_evaluation_of_examinations.pdf p6 #12",
+      "conduct_and_evaluation_of_examinations.pdf p10 #25"
+    ],
+    "answer": "The Centre Superintendent will make extra arrangements at the examination centre by providing a Scribe/Writer, one extra/separate invigilator in a separate room.\n\nSource: scribe_writer_guidelines_disabled_students.pdf, Page: 1"
+  },
+  {
+    "id": 7,
+    "question": "Are there any relaxations in minimum attendance criteria under special circumstances?",
+    "expected": "The Dean/HOD can condone shortage up to 10%, and under exceptional circumstances the Vice-Chancellor can relax it by up to a further 5%",
+    "retrieval_hit": true,
+    "no_answer_ok": null,
+    "retrieved": [
+      "conduct_and_evaluation_of_examinations.pdf p3 #5",
+      "conduct_and_evaluation_of_examinations.pdf p8 #18",
+      "conduct_and_evaluation_of_examinations.pdf p4 #6"
+    ],
+    "answer": "Yes, the minimum attendance criteria have the following relaxations for individual students:\n\n* The Dean of Faculty / Dean (Academic Affairs) / Head of the Department may condone an attendance shortage of up to 10% for reasons recorded in writing.\n* Under exceptional circumstances, the Vice-Chancellor may further relax the minimum attendance up to 5%. \n\nHowever, under no circumstances shall a student with an aggregate attendance of less than 60% in a semester be allowed to appear in the end-term examinations.\n\nSource: conduct_and_evaluation_of_examinations.pdf, Page: 3"
+  },
+  {
+    "id": 8,
+    "question": "What is the formula for calculating Cummulative Performance Index?",
+    "expected": "CPI = sum of (credits × marks) divided by sum of credits, over the courses passed with at least 50%",
+    "retrieval_hit": true,
+    "no_answer_ok": null,
+    "retrieved": [
+      "conduct_and_evaluation_of_examinations.pdf p9 #manual_0",
+      "conduct_and_evaluation_of_examinations.pdf p9 #23",
+      "conduct_and_evaluation_of_examinations.pdf p9 #22"
+    ],
+    "answer": "The formula for calculating the Cumulative Performance Index (CPI) is:\nCPI = (sum of Cn x Mn over all courses n) divided by (sum of Cn over all courses n), where n runs from 1 to N. \n(Here, Cn is the number of credits earned for course n in any semester, Mn is the marks obtained by the student in course n, and N is the total number of courses over which the performance is being measured.)\n\nSource: conduct_and_evaluation_of_examinations.pdf, Page: 9"
+  },
+  {
+    "id": 9,
+    "question": "What is the punishment for impersonation in the exams?",
+    "expected": "Cancellation of the entire examination taken by the candidate and further debarring him at any examination of the board during the span of three years(36 months).",
+    "retrieval_hit": true,
+    "no_answer_ok": null,
+    "retrieved": [
+      "regulation_for_unfair_means.pdf p5-8 #table_unfair_means_table_4_2",
+      "regulation_for_unfair_means.pdf p5 #11",
+      "regulation_for_unfair_means.pdf p5-8 #table_unfair_means_table_4_1"
+    ],
+    "answer": "Based on the provided documents, the punishments for impersonation are as follows:\n\n- **Case 1 (For a candidate who has impersonated at the examination):** Cancellation of the entire examination taken by the candidate, and further debarring the candidate from any examination of the Board for a span of three years (36 months).\n- **Case 2 (For an impersonator who is a student of any course or a candidate for any examination):** The impersonator shall also be liable to the same punishment (cancellation of the entire examination taken and debarment from any examination of the Board for a span of three years).\n\nSource: regulation_for_unfair_means.pdf, Page: 5-8"
+  },
+  {
+    "id": 10,
+    "question": "Can I get my conference registration fee reimbursed, and what is the maximum amount?",
+    "expected": "Reimbursement of the registration fee only, for Web of Science/Scopus indexed conferences, up to Rs 10,000 per conference, for one student author who presents the paper.",
+    "retrieval_hit": true,
+    "no_answer_ok": null,
+    "retrieved": [
+      "research_and_development_guidelines_igdtuw.pdf p14 #30",
+      "research_and_development_guidelines_igdtuw.pdf p18 #43",
+      "scribe_writer_guidelines_disabled_students.pdf p1 #1"
+    ],
+    "answer": "Yes, you can get your conference registration fee reimbursed for presenting a research paper in Web of Science/Scopus indexed National or International conferences in the areas of Sciences, Engineering & Technology and Architecture, provided you are the student author presenting the paper. The maximum reimbursable amount is Rs. 10,000/- per conference.\n\nSource: research_and_development_guidelines_igdtuw.pdf, Page: 14"
+  },
+  {
+    "id": 11,
+    "question": "What is the hostel fee for first-year students?",
+    "expected": "NOT IN DOCUMENTS",
+    "retrieval_hit": null,
+    "no_answer_ok": true,
+    "retrieved": [
+      "research_and_development_guidelines_igdtuw.pdf p18 #43",
+      "research_and_development_guidelines_igdtuw.pdf p14 #30",
+      "conduct_and_evaluation_of_examinations.pdf p9 #23"
+    ],
+    "answer": "I could not find this information in the provided college documents.\n\nSource: research_and_development_guidelines_igdtuw.pdf (Page 14, 18) and conduct_and_evaluation_of_examinations.pdf (Page 9)"
+  },
+  {
+    "id": 12,
+    "question": "What is the placement package offered to graduating students?",
+    "expected": "NOT IN DOCUMENTS",
+    "retrieval_hit": null,
+    "no_answer_ok": true,
+    "retrieved": [
+      "conduct_and_evaluation_of_examinations.pdf p7 #16",
+      "conduct_and_evaluation_of_examinations.pdf p8 #20",
+      "conduct_and_evaluation_of_examinations.pdf p8 #19"
+    ],
+    "answer": "I could not find this information in the provided college documents.\n\nSource: conduct_and_evaluation_of_examinations.pdf, Pages: 7-8"
+  }
+]

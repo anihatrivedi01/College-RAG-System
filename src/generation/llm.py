@@ -1,6 +1,7 @@
 import os
 from dotenv import load_dotenv
 from google import genai
+from google.genai import types
 
 
 load_dotenv()
@@ -21,10 +22,20 @@ in the context below.
 Rules:
 1. Do not use information that is not present in the context.
 2. Do not make up or assume information.
-3. If the answer cannot be found in the context, say:
+3. If the answer cannot be found in the context, reply with exactly this sentence
+   and nothing else, with no source and no extra text:
    "I could not find this information in the provided college documents."
-4. After answering, provide the source and page number from the context.
-5. Keep the answer concise and clear.
+4. Otherwise, after answering, provide the source and page number from the context.
+5. Answer the question directly and completely. Include every condition, limit,
+   amount and exception that the context states about what was asked.
+   Do not add details about unrelated topics.
+6. The context may contain OCR errors or text that is cut off in the middle of a sentence.
+   Do not guess or complete missing words. If a rule seems incomplete,
+   say that the text appears incomplete.
+7. If the context describes several cases with different outcomes (for example,
+   different penalties depending on the circumstances), state each case separately.
+8. Write numbers and fractions in plain text (for example 1/3), without LaTeX
+   or special symbols.
 
 Context:
 {context}
@@ -32,12 +43,12 @@ Context:
 Question:
 {query}
 
-Answer:
 """
 
     response = client.models.generate_content(
         model="gemini-3.5-flash-lite",
-        contents=prompt
+        contents=prompt,
+        config=types.GenerateContentConfig(temperature=0.2)
     )
 
     return response.text

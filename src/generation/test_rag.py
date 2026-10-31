@@ -2,9 +2,9 @@ from src.retrieval.retriever import retrieve_documents
 from src.generation.llm import generate_answer
 
 
-query = "What are the criteria for promotion to the next academic year?"
+query = query = "How much extra time is given to a disabled student with a scribe?"
 
-documents = retrieve_documents(query, n_results=2)
+documents = retrieve_documents(query, n_results=3)
 
 
 # Build context for the LLM

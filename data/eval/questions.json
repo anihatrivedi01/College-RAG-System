@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "question": "What are the criteria for promotion to the next academic year?",
+    "expected": "At least 50% of the total credits of the ensuing academic year and 90% of the total credits of the previous year, excluding the credits of the ensuing year",
+    "source": ["conduct_and_evaluation_of_examinations.pdf", "criteria_for_passing_exams.pdf"]
+  },
+  {
+    "id": 2,
+    "question": "What is the punishment for carrying a mobile phone into the exam?",
+    "expected": "Possession only: cancellation of the entire examination. If the phone was used or help was given: cancellation of the entire examination taken during the year plus debarment for 12 months",
+    "source": "regulation_for_unfair_means.pdf"
+  },
+  {
+    "id": 3,
+    "question": "What is the weightage of the end-term examination for theory courses?",
+    "expected": "60% for the end-term examination (the remaining 40% is continuous evaluation by the teacher)",
+    "source": "conduct_and_evaluation_of_examinations.pdf"
+  },
+  {
+    "id": 4,
+    "question": "What financial assistance is available for full-time Ph.D. scholars?",
+    "expected": "Rs 10,000 per month for full-time scholars with no other financial support, for up to five years or until the Ph.D. is completed",
+    "source": "research_and_development_guidelines_igdtuw.pdf"
+  },
+  {
+    "id": 5,
+    "question": "How much extra time is given to a disabled student with a scribe?",
+    "expected": "One hour extra for a 3-hour paper; 1/3rd of the total duration for papers shorter than 3 hours",
+    "source": "scribe_writer_guidelines_disabled_students.pdf"
+  },
+  {
+    "id": 6,
+    "question": "What extra arrangements will be made for disabled students in the exam?",
+    "expected": "The Centre Superintendent will make extra arrangements at examination at examination centre by Scribe/Writer,one extra/separate invigilator in a separate room.",
+    "source": "scribe_writer_guidelines_disabled_students.pdf"
+  },
+  {
+    "id": 7,
+    "question": "Are there any relaxations in minimum attendance criteria under special circumstances?",
+    "expected": "The Dean/HOD can condone shortage up to 10%, and under exceptional circumstances the Vice-Chancellor can relax it by up to a further 5%",
+    "source": "conduct_and_evaluation_of_examinations.pdf"
+  },
+  {
+    "id": 8,
+    "question": "What is the formula for calculating Cummulative Performance Index?",
+    "expected": "CPI = sum of (credits × marks) divided by sum of credits, over the courses passed with at least 50%",
+    "source": "conduct_and_evaluation_of_examinations.pdf"
+  },
+  {
+    "id": 9,
+    "question": "What is the punishment for impersonation in the exams?",
+    "expected": "Cancellation of the entire examination taken by the candidate and further debarring him at any examination of the board during the span of three years(36 months).",
+    "source": "regulation_for_unfair_means.pdf"
+  },
+  {
+    "id": 10,
+    "question": "Can I get my conference registration fee reimbursed, and what is the maximum amount?",
+    "expected": "Reimbursement of the registration fee only, for Web of Science/Scopus indexed conferences, up to Rs 10,000 per conference, for one student author who presents the paper.",
+    "source": "research_and_development_guidelines_igdtuw.pdf"
+  },
+  {
+    "id": 11,
+    "question": "What is the hostel fee for first-year students?",
+    "expected": "NOT IN DOCUMENTS",
+    "source": null
+  },
+  {
+    "id": 12,
+    "question": "What is the placement package offered to graduating students?",
+    "expected": "NOT IN DOCUMENTS",
+    "source": null
+  }
+]
