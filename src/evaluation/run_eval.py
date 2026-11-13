@@ -70,7 +70,7 @@ for q in questions:
     })
 
     print(f"Q{q['id']} done (retrieval hit: {hit})")
-    time.sleep(4)    # stay inside the free-tier rate limit
+    time.sleep(8)    # stay inside the free-tier rate limit
 
 with open(f"data/eval/results_{tag}.json", "w", encoding="utf-8") as f:
     json.dump(results, f, indent=2, ensure_ascii=False)
