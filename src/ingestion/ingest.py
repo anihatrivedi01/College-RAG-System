@@ -1,17 +1,18 @@
-
-print("INGEST SCRIPT STARTED")
 import os
 from src.ingestion.document_loader import extract_text_from_pdf
 from src.ingestion.chunker import chunk_text
 from src.embeddings.embedder import create_embeddings
 from src.retrieval.chroma_store import add_documents, collection
 from src.ingestion.table_chunks import load_table_chunks, load_manual_chunks
+from src.ingestion.auto_tables import extract_tables_from_pdf
+from src.ingestion.table_jobs import TABLE_JOBS
+
+HAND_CHECKED = {job["source"] for job in TABLE_JOBS}
 
 existing = collection.get()["ids"]
 if existing:
     collection.delete(ids=existing)
 print("Collection cleared. Starting from", collection.count(), "chunks")
-
 
 raw_dir = "data/raw"
 
@@ -34,6 +35,13 @@ for filename in sorted(os.listdir(raw_dir)):
     add_documents(chunks, embeddings, ids)
     print(f"{filename}: {len(pages)} pages, {len(chunks)} chunks")
 
+    if filename not in HAND_CHECKED:
+        auto = extract_tables_from_pdf(pdf_path, source=filename)
+        if auto:
+            auto_embeddings = create_embeddings([c["text"] for c in auto])
+            auto_ids = [f"{c['metadata']['source']}_{c['metadata']['chunk_id']}" for c in auto]
+            add_documents(auto, auto_embeddings, auto_ids)
+            print(f"  {len(auto)} auto-extracted table chunks added")
     
 
 extra = load_table_chunks() + load_manual_chunks()
